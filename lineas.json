@@ -1,0 +1,38 @@
+[
+  {
+    "id": "politica-adultos",
+    "name": "Política de Adultos en el Movimiento",
+    "icon": "📜",
+    "description": "Cómo se gestiona el ciclo de vida del adulto voluntario: marco filosófico, principios, las 7 competencias esenciales, plan personal de desarrollo y herramientas oficiales.",
+    "audience": "Consejeros, dirigentes y miembros del consejo de grupo",
+    "url": "https://maximoaluna-blip.github.io/INDUCCION-ADULTOS/",
+    "status": "active",
+    "coursesActive": 5,
+    "coursesPlanned": 12,
+    "color": "#622599"
+  },
+  {
+    "id": "desarrollo-institucional",
+    "name": "Desarrollo Institucional",
+    "icon": "🏛️",
+    "description": "Gobernanza, gestión de regiones, política institucional y desarrollo organizacional de la asociación.",
+    "audience": "Comisionados regionales y nacionales, gobernanza scout",
+    "url": null,
+    "status": "coming-soon",
+    "coursesActive": 0,
+    "coursesPlanned": null,
+    "color": "#2196F3"
+  },
+  {
+    "id": "politicas-transversales",
+    "name": "Políticas Transversales",
+    "icon": "🛡️",
+    "description": "Políticas que aplican a toda persona adulta vinculada al movimiento: A Salvo del Peligro (Safe from Harm), Diversidad e Inclusión, Gestión para la Motivación, entre otras.",
+    "audience": "Toda persona adulta vinculada a la ASC",
+    "url": null,
+    "status": "coming-soon",
+    "coursesActive": 0,
+    "coursesPlanned": null,
+    "color": "#4CAF50"
+  }
+]
