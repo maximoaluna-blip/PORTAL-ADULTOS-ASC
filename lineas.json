@@ -12,6 +12,18 @@
     "color": "#622599"
   },
   {
+    "id": "programa-jovenes",
+    "name": "Programa de Jóvenes",
+    "icon": "🎒",
+    "description": "Formación para adultos que dirigen las ramas: manada (lobatos), tropa (scouts), comunidad (caminantes) y clan (rover). Marco simbólico, métodos por rama, progresión personal y trabajo con jóvenes.",
+    "audience": "Dirigentes de rama y miembros de la jefatura del grupo",
+    "url": null,
+    "status": "coming-soon",
+    "coursesActive": 0,
+    "coursesPlanned": null,
+    "color": "#FF9800"
+  },
+  {
     "id": "desarrollo-institucional",
     "name": "Desarrollo Institucional",
     "icon": "🏛️",
