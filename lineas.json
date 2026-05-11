@@ -27,13 +27,13 @@
     "id": "desarrollo-institucional",
     "name": "Desarrollo Institucional",
     "icon": "🏛️",
-    "description": "Gobernanza, gestión de regiones, política institucional y desarrollo organizacional de la asociación.",
-    "audience": "Comisionados regionales y nacionales, gobernanza scout",
-    "url": null,
-    "status": "coming-soon",
-    "coursesActive": 0,
-    "coursesPlanned": null,
-    "color": "#2196F3"
+    "description": "Gobernanza, planeación, finanzas sanas, salud institucional y los 8 ámbitos de gestión de la PNDI 2017. Cursos cortos para todo adulto que sostiene un grupo scout o una región.",
+    "audience": "Jefes de grupo, consejos, consejeros, comisionados, miembros de cortes de honor y comisiones de vigilancia y control",
+    "url": "https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/",
+    "status": "active",
+    "coursesActive": 1,
+    "coursesPlanned": 24,
+    "color": "#1565C0"
   },
   {
     "id": "politicas-transversales",
