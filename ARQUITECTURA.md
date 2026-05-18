@@ -239,6 +239,7 @@ Todos los cursos siguen los mismos principios pedagógicos documentados en [`MAR
 | `Plan-de-Formacion-*.md/.docx` | ✅ | ✅ | — | — |
 | `Recomendaciones-Cowork-*.md` | ✅ | ✅ | — | — |
 | `ARQUITECTURA.md` (este) | (refencia este) | (refencia este) | ✅ | (refencia este) |
+| `FLUJOS-AUTONOMOS-Y-SCRIPTS.md` | (refencia este) | (refencia este) | ✅ | (refencia este) |
 
 ---
 
