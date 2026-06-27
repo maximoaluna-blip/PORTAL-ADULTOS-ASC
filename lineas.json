@@ -17,10 +17,10 @@
     "icon": "🎒",
     "description": "Formación para adultos que dirigen las ramas: manada (lobatos), tropa (scouts), comunidad (caminantes) y clan (rover). Marco simbólico, métodos por rama, progresión personal y trabajo con jóvenes.",
     "audience": "Dirigentes de rama y miembros de la jefatura del grupo",
-    "url": null,
-    "status": "coming-soon",
-    "coursesActive": 0,
-    "coursesPlanned": null,
+    "url": "https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/",
+    "status": "active",
+    "coursesActive": 1,
+    "coursesPlanned": 24,
     "color": "#FF9800"
   },
   {
