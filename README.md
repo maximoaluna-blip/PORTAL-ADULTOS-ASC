@@ -16,11 +16,14 @@ Este portal solo cumple un rol: **convocar y direccionar**. Una persona llega aq
 
 ## Líneas disponibles hoy
 
-| Línea | Estado | URL de la plataforma |
-|---|---|---|
-| 📜 Política de Adultos en el Movimiento | ✅ Activa | https://maximoaluna-blip.github.io/INDUCCION-ADULTOS/ |
-| 🏛️ Desarrollo Institucional | 🔒 Próximamente | — |
-| 🛡️ Políticas Transversales | 🔒 Próximamente | — |
+| Línea | Estado | Cursos activos | URL de la plataforma |
+|---|---|---|---|
+| 📜 Política de Adultos en el Movimiento | ✅ Activa | 5 | https://maximoaluna-blip.github.io/INDUCCION-ADULTOS/ |
+| 🎒 Programa de Jóvenes | ✅ Activa | 1 | https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/ |
+| 🏛️ Desarrollo Institucional | ✅ Activa | 6 | https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/ |
+| 🛡️ Políticas Transversales | 🔒 Próximamente | — | — |
+
+> La fuente de verdad de esta tabla es [`lineas.json`](lineas.json). Si editas el JSON, actualiza también esta tabla.
 
 ## Estructura del repo
 
@@ -40,11 +43,12 @@ PORTAL-ADULTOS-ASC/
 ## ¿Cómo agregar una nueva línea?
 
 1. Crear el repo de la nueva línea (ej. `INDUCCION-DESARROLLO-INSTITUCIONAL`).
-2. Construir su contenido y desplegar a GitHub Pages.
-3. Editar `lineas.json` aquí: agregar una nueva entrada con `id`, `name`, `icon`, `description`, `audience`, `url`, `status`, `coursesActive`, `coursesPlanned`, `color`.
-4. Commit + push. GitHub Pages redespliega y la línea aparece en el portal.
+2. Construir su contenido **y crear en la raíz del repo de la línea su `index.html` (landing que lee `02-Plataforma-Web/cursos.json`) + `404.html`**. Sin el `index.html` raíz, GitHub Pages sirve la URL de la línea con 404 (la línea no queda "publicada" aunque los cursos existan). El `index.html` de la línea debe incluir el botón `.back-portal` ("← Plataforma ASC") que regresa a este portal.
+3. Editar `lineas.json` aquí: agregar/actualizar la entrada con `id`, `name`, `icon`, `description`, `audience`, `url`, `status`, `coursesActive`, `coursesPlanned`, `color`. El portal **solo muestra el botón "Entrar a la Línea" cuando `status === "active"` Y `url` no es `null`**.
+4. Commit + push (de este repo del portal). GitHub Pages redespliega y la línea aparece en el portal.
+5. Actualizar la tabla "Líneas disponibles hoy" de este README para que coincida con el JSON.
 
-**Cero código adicional** — el portal lee el JSON dinámicamente.
+**Cero código adicional** — el portal lee el JSON dinámicamente. Pero recuerda que son **dos repos**: el de la línea (cursos + landing) y este (catálogo). Publicar una línea toca ambos.
 
 ## Tecnología
 

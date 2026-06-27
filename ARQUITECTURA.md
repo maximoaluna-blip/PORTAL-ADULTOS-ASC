@@ -76,9 +76,20 @@ El ecosistema formativo de adultos voluntarios de la Asociación Scouts de Colom
 | **Propósito** | Plataforma con los 24 cursos de la Línea Desarrollo Institucional (gobernanza, planeación, finanzas, salud institucional, los 8 ámbitos PNDI 2017). |
 | **URL** | https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/ |
 | **Audiencia** | Jefes de grupo, consejos, consejeros, comisionados, miembros de cortes de honor y comisiones de vigilancia y control. |
-| **Cursos activos** | 1 (Bienvenida al DI, piloto). 5 más planeados para el Nivel 1. |
+| **Cursos activos** | **6 (Nivel 1 completo):** Bienvenida, PNDI Marco y Principios, Niveles y Estructura, los 8 Ámbitos de Gestión, Buenas Prácticas en Tu Grupo, Mi Aporte al DI. |
 | **Backend** | Mismo Apps Script que Adultos (compartido durante el piloto). |
-| **Estado** | 🟡 Piloto del Curso 1 desplegado, 5 cursos del Nivel 1 por construir. |
+| **Estado** | ✅ Nivel 1 completo en producción (6 cursos activos). Niveles 2–3 por construir (24 planeados). |
+
+### 2.3-bis `INDUCCION-PROGRAMA-JOVENES` — Línea Programa de Jóvenes
+
+| Aspecto | Detalle |
+|---|---|
+| **Propósito** | Plataforma de la Línea Programa de Jóvenes (ramas, Método Scout, PNPJ y el Gran Juego para la Vida). 24 cursos planeados. |
+| **URL** | https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/ |
+| **Audiencia** | Dirigentes de rama y miembros de la jefatura del grupo. |
+| **Cursos activos** | 1 (Bienvenida al Programa de Jóvenes). Cursos 02–06 con diseño terminado, pendientes de construir. |
+| **Backend** | Apps Script de la línea (ver `INDICE-PROYECTO.md` de la línea). |
+| **Estado** | ✅ Curso 01 publicado en vivo (landing raíz + 404 añadidos 27-jun-2026). |
 
 ### 2.4 `PORTAL-ADMIN-ASC` — Dashboard administrativo unificado
 
@@ -136,6 +147,21 @@ El ecosistema formativo de adultos voluntarios de la Asociación Scouts de Colom
 8. Push de los repos afectados
 ```
 
+### 3.4 Flujo de publicación de una línea (toca DOS repos)
+
+```
+1. Construir los cursos: JSON → build-course.js → HTML en 02-Plataforma-Web/
+2. Actualizar 02-Plataforma-Web/cursos.json (status: "active")
+3. RAÍZ del repo de la línea: index.html (landing que lee cursos.json,
+   con botón .back-portal) + 404.html   ← sin esto la URL pública da 404
+4. Commit + push del repo de la LÍNEA → GitHub Pages redespliega
+5. Editar PORTAL-ADULTOS-ASC/lineas.json (status:"active", url,
+   coursesActive, coursesPlanned) + tabla del README del portal
+6. Commit + push del repo del PORTAL → la tarjeta aparece y se vuelve clickeable
+7. Verificar en producción (curl + build de Pages) antes de anunciar
+```
+> El portal solo enlaza una línea cuando su entrada tiene `status: "active"` **y** `url` no es `null`. Ver `CLAUDE.md` §7-bis y `DECISIONES.md` ADR-014.
+
 ---
 
 ## 4. Decisiones arquitecturales clave
@@ -146,7 +172,7 @@ El ecosistema formativo de adultos voluntarios de la Asociación Scouts de Colom
 |---|---|
 | **Aislamiento de despliegues** | Un push de un curso de Adultos no recompila DI. |
 | **Catálogos independientes** | Cada línea tiene su `cursos.json` propio. |
-| **Branding por línea** | Cada línea tiene paleta de color propia (#622599 Adultos, #1565C0 DI). |
+| **Branding por línea** | Cada línea tiene color de tarjeta propio en el portal: #622599 Adultos, #00afef Programa de Jóvenes, #1565C0 DI, #4CAF50 Transversales. |
 | **Escalabilidad** | Agregar nuevas líneas no toca código de las existentes. |
 | **Permisos diferenciados (futuro)** | Cada línea puede tener admins distintos cuando se necesite. |
 
