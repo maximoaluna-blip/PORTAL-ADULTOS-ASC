@@ -41,10 +41,10 @@
     "icon": "🛡️",
     "description": "Políticas que aplican a toda persona adulta vinculada al movimiento: A Salvo del Peligro (Safe from Harm), Diversidad e Inclusión, Gestión para la Motivación, entre otras.",
     "audience": "Toda persona adulta vinculada a la ASC",
-    "url": null,
-    "status": "coming-soon",
-    "coursesActive": 0,
+    "url": "https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/",
+    "status": "active",
+    "coursesActive": 2,
     "coursesPlanned": 22,
-    "color": "#4CAF50"
+    "color": "#2E7D32"
   }
 ]
