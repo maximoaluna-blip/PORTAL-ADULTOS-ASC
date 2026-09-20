@@ -47,8 +47,8 @@ Estas son las decisiones de diseño pedagógico que aplicamos transversalmente a
 
 ### 2.1 Duración
 
-- **Cursos completos:** entre **20 y 40 minutos**. La intención es que un adulto pueda completar un curso entero en una sola sesión si dispone de ese tiempo, pero también que pueda fragmentarlo si no.
-- **Lecciones individuales:** entre **3 y 8 minutos**, con un objetivo de **5–7 minutos** como duración óptima. Esta granularidad permite que la lección se complete en cualquier ventana corta de tiempo (entre reuniones, en transporte público, antes de empezar una actividad scout).
+- **Lecciones individuales — la unidad que manda:** entre **3 y 8 minutos**, con un objetivo de **5–7 minutos** como duración óptima. Esta granularidad permite que la lección se complete en cualquier ventana corta de tiempo (entre reuniones, en transporte público, antes de empezar una actividad scout).
+- **Cursos completos:** la duración total **se deriva** de esa banda por el número de lecciones. Con cursos de 6 a 10 lecciones, hoy va de **25 a 65 minutos**. **No hay tope fijo**: por encima de **60 minutos** hay que justificar por qué el curso no se parte (**ADR-069**). La intención sigue siendo que un adulto pueda completar un curso entero en una sola sesión si dispone de ese tiempo, pero también que pueda fragmentarlo si no — **por eso la promesa que se cuida es la de la lección, que es lo que el adulto abre.**
 
 #### El multimedia cuenta dentro de la duración declarada
 
@@ -567,6 +567,8 @@ Cada iteración alimenta el marco. Este documento es un _living document_: **su 
 _Documento elaborado como parte del proyecto de digitalización de la formación de adultos voluntarios del movimiento scout colombiano._
 
 ---
+
+_**Versión 2.1 — 20 de septiembre de 2026** (`DECISIONES.md` **ADR-069**). §2.1 invierte el orden de las dos reglas de duración: **la lección es la unidad que manda** (3–8 min, óptimo 5–7) y el curso completo **se deriva** de ella, sin tope fijo. El tope de «20 a 40 minutos» se retira: era incompatible con la propia banda por lección para cualquier curso de más de ocho lecciones, y **10 de los 31 cursos publicados lo excedían**._
 
 _**Versión 2.0 — 2 de agosto de 2026.** Actualizado tras la evaluación técnica del corpus rector (`DECISIONES.md` ADR-024). Cambios: §2.1 suma la regla de que **el multimedia cuenta dentro de la duración declarada**; §2.4–2.5 pasan el quiz de 1–3 a **2–3 preguntas** y convierten el criterio de evaluación en **5 reglas medibles**, tres verificadas por el generador; §3.6 reemplaza la lista de 3 documentos operativos por el mapa real del corpus; §4.2 y §9 reflejan el **estado real** (las 3 líneas nacionales activas, no "próximamente"); §4.3 incorpora que **no hay cursos habilitantes** (ADR-019); §7.5 documenta el paso de la crítica ocasional a las **3 auditorías sistemáticas**; **§8.5-bis es nueva**: sitúa la plataforma en el modelo de Kirkpatrick y reconoce que el dato de nivel 2 se recoge pero no se analiza; §10 reemplaza etapas ya cumplidas por las pendientes reales. Citas de la PNAM unificadas como **PNAM 2017** (Acuerdo CSN 176)._
 
