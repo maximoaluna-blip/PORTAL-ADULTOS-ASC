@@ -3,11 +3,11 @@
     "id": "politica-adultos",
     "name": "Política de Adultos en el Movimiento",
     "icon": "📜",
-    "description": "Cómo se gestiona el ciclo de vida del adulto voluntario: marco filosófico, principios, las 7 competencias esenciales, plan personal de desarrollo y herramientas oficiales.",
+    "description": "Cómo se gestiona el ciclo de vida del adulto voluntario: marco filosófico, principios, las 7 competencias esenciales y plan personal de desarrollo; y la práctica de cada fase: vincular, asesorar, evaluar en 360°, Talento 360° y cerrar un nombramiento.",
     "audience": "Consejeros, dirigentes y miembros del consejo de grupo",
     "url": "https://maximoaluna-blip.github.io/INDUCCION-ADULTOS/",
     "status": "active",
-    "coursesActive": 5,
+    "coursesActive": 10,
     "coursesPlanned": 17,
     "color": "#622599"
   },
