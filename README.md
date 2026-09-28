@@ -21,7 +21,7 @@ Este portal solo cumple un rol: **convocar y direccionar**. Una persona llega aq
 | 📜 Política de Adultos en el Movimiento | ✅ Activa | 5 | https://maximoaluna-blip.github.io/INDUCCION-ADULTOS/ |
 | 🎒 Programa de Jóvenes | ✅ Activa | 20 | https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/ |
 | 🏛️ Desarrollo Institucional | ✅ Activa | 12 | https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/ |
-| 🛡️ Políticas Transversales | ✅ Activa | 5 | https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/ |
+| 🛡️ Políticas Transversales | ✅ Activa | 6 | https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/ |
 
 > La fuente de verdad de esta tabla es [`lineas.json`](lineas.json). Si editas el JSON, actualiza también esta tabla.
 >
