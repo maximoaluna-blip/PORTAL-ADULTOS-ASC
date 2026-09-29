@@ -465,7 +465,7 @@ Tras la validación del Nivel 1 con piloto, se construirán:
 - **Nivel 3 — 7 cursos** por cargo del consejo de grupo (tesorero, secretario, asesor personal, intendente, canciller, etc.).
 - **Nivel 4 — 3+ cursos transversales** integrados con la línea de Políticas Transversales (Safe from Harm, Diversidad, Motivación).
 
-**Total proyectado de la línea: 17 cursos.**
+**Total de la línea: 15 cursos** (el Nivel 3 se replanteó de 7 a 5 contra el *Manual de Cargos*, ADR-107).
 
 ### 9.3 Funcionalidades técnicas activas
 
