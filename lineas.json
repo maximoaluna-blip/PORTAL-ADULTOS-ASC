@@ -27,12 +27,12 @@
     "id": "desarrollo-institucional",
     "name": "Desarrollo Institucional",
     "icon": "🏛️",
-    "description": "Gobernanza, planeación, finanzas sanas, salud institucional y los 8 ámbitos de gestión de la PNDI 2017. Cursos cortos para todo adulto que sostiene un grupo scout o una región.",
+    "description": "Gobernanza, planeación, finanzas sanas, salud institucional y los 8 ámbitos de gestión de la PNDI 2017; los cargos del Consejo; ética e integridad, y cómo llegan los planes mundial y regional a tu grupo. Cursos cortos para todo adulto que sostiene un grupo scout o una región.",
     "audience": "Jefes de grupo, consejos, consejeros, comisionados, miembros de cortes de honor y comisiones de vigilancia y control",
     "url": "https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/",
     "status": "active",
-    "coursesActive": 17,
-    "coursesPlanned": 21,
+    "coursesActive": 20,
+    "coursesPlanned": 20,
     "color": "#1565C0"
   },
   {
@@ -43,7 +43,7 @@
     "audience": "Toda persona adulta vinculada a la ASC",
     "url": "https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/",
     "status": "active",
-    "coursesActive": 9,
+    "coursesActive": 10,
     "coursesPlanned": 22,
     "color": "#2E7D32"
   }
