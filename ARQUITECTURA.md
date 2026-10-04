@@ -86,7 +86,7 @@ El ecosistema formativo de adultos voluntarios de la Asociación Scouts de Colom
 |---|---|
 | **Propósito** | Plataforma de la Línea Programa de Jóvenes (ramas, Método Scout, PNPJ y el Gran Juego para la Vida). 24 cursos planeados. |
 | **URL** | https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/ |
-| **Audiencia** | Dirigentes de rama y miembros de la jefatura del grupo. |
+| **Audiencia** | Dirigentes de rama, la jefatura del grupo y los adultos que llegan a apoyar una unidad, aunque aún no tengan un cargo. |
 | **Cursos activos** | 1 (Bienvenida al Programa de Jóvenes). Cursos 02–06 con diseño terminado, pendientes de construir. |
 | **Backend** | Apps Script de la línea (ver `INDICE-PROYECTO.md` de la línea). |
 | **Estado** | ✅ Curso 01 publicado en vivo (landing raíz + 404 añadidos 27-jun-2026). |
